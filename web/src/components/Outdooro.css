@@ -1,5 +1,68 @@
 .outdooro{
     width: 100%;
-    height: 100px;
-    background-color: black;
+    height: 300px;
+    background-color: #fff;
+   display: flex;
+}
+.odeca{
+    width: 20%;
+    margin-left: 20px;
+    border-left: 0.5px solid rgba(97, 91, 91, 0.849);
+    border-right: 0.5px solid rgba(97, 91, 91, 0.849) ;
+}
+.odeca ul li{
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+}
+.satori{
+    width: 30%; 
+    border-right: 0.5px solid rgba(97, 91, 91, 0.849) ;
+}
+.satori ul li{
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+}
+.outdoor-slike{
+
+    width: 50%;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+.outdoor-slika1{
+    width: 48%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://planetbike.rs/media/megamenu/obuca.png");
+}
+
+.outdoor-slika2{
+    width: 48%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://planetbike.rs/media/megamenu/oprema.png");
+}
+.outdoor-slika1:hover{
+    width: 49%;
+    height: 51%;
+}
+.outdoor-slika2:hover{
+    width: 49%;
+    height: 51%;
+}
+.outdooro ul li{
+    margin-left: 10px;
+    list-style: none;
+    color: rgb(114, 105, 105);
+    font-size: 20px;
+    cursor: pointer;
+}
+.outdooro ul li:hover{
+    background-color: rgb(201, 189, 189);
+    color: black;
 }
