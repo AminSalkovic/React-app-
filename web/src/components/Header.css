@@ -1,0 +1,41 @@
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(36, 26, 26);
+    display: flex;
+    align-items: center;
+}
+
+.header h1{
+    font-size: 40px;
+    font-stretch: ultra-expanded;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    width: 250px;
+    margin-left: 250px;
+    background-color: rgb(41, 31, 31);
+    border: 1px solid rgb(161, 161, 175);
+    padding: 10px 10px;
+    color: #fff;
+}
+button {
+    background-color: orangered;
+    border: none;
+    color: #fff;
+    padding: 11px 12px;
+}
+.header ul li{
+    list-style: none;
+    float: left;
+    color: #fff;
+    font-size: 17px;
+    margin-left: 30px;
+    
+}
+.header ul li i{
+    margin-right: 7px;
+    color: orangered;
+    font-size: 20px;
+}

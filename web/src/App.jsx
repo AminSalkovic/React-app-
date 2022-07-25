@@ -1,10 +1,14 @@
-
+import Preheader from './components/Preheader';
 import './App.css';
+import Header from './components/Header';
+import Header2 from './components/Header2'
 
-function App() {
+const App=()=> {
   return (
     <>
-    <h1>amin</h1>
+    <Preheader/>
+    <Header/>
+    <Header2/>
     </>
   );
 }

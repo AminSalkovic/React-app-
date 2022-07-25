@@ -1,0 +1,32 @@
+.biciklizam{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+   display: flex;
+}
+.bicikli{
+    width: 15%;
+    margin-left: 15px;
+    border-left: 0.5px solid rgba(97, 91, 91, 0.849);
+    border-right: 0.5px solid rgba(97, 91, 91, 0.849) ;
+}
+.bicikli h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(37, 36, 36);
+}
+.bicikli h1:hover{
+    background-color: rgb(86, 88, 88);
+}
+.bicikli ul li{
+    margin-left: 10px;
+    list-style: none;
+    color: rgb(114, 105, 105);
+    font-size: 20px;
+    cursor: pointer;
+}
+.bicikli ul li:hover{
+    background-color: rgb(201, 189, 189);
+    color: black;
+}
