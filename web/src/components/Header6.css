@@ -1,0 +1,34 @@
+.header6{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.header6-slika1{
+    width: 48%;
+    height: 70%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://planetbike.rs/media/home/uvex-1.jpg");
+}
+
+.header6-slika2{
+    width: 48%;
+    height: 70%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://planetbike.rs/media/home/planetbike-instagram.jpg");
+}
+.header6-slika3{
+    width: 48%;
+    height: 70%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://planetbike.rs/media/home/uvex-1.jpg");
+}
