@@ -1,40 +1,46 @@
-.biciklizam{
+.zimskisportovi{
     width: 100%;
     height: 450px;
     background-color: #fff;
    display: flex;
 }
-.bicikli{
+.ski-oprema{
     width: 15%;
     margin-left: 15px;
     border-left: 0.5px solid rgba(97, 91, 91, 0.849);
     border-right: 0.5px solid rgba(97, 91, 91, 0.849) ;
 }
- .biciklizam h1{
+ .zimskisportovi h1{
     margin-top: 10px;
     text-align: center;
     font-size: 25px;
     color: rgb(37, 36, 36);
 }
- .biciklizam h1:hover{
+ .zimskisportovi h1:hover{
     background-color: rgb(86, 88, 88);
 }
-.biciklizam ul li{
+.zimskisportovi ul li{
     margin-left: 10px;
     list-style: none;
     color: rgb(114, 105, 105);
     font-size: 20px;
     cursor: pointer;
 }
-.biciklizam ul li:hover{
+.zimskisportovi ul li:hover{
     background-color: rgb(201, 189, 189);
     color: black;
 }
-.oprema,.delovi{
+.ski-odeca,.snowboard{
     width: 15%;
     border-right: 0.5px solid rgba(97, 91, 91, 0.849) ;
 }
-.div-slike{
+.klizaljke ul li{
+    font-size: 25px;
+    margin-top: 20px;
+   color: rgb(37, 36, 36);;
+}
+
+.skisportovi-slike{
 
   width: 40%;  
   display: flex;
@@ -42,26 +48,26 @@
   align-items: center;
 
 }
-.div-slike-slika1{
+.skisportovi-slika1{
     width: 48%;
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("https://planetbike.rs/media/megamenu/royal-baby.jpg");
+    background-image: url("https://planetbike.rs/media/megamenu/ski_renta.jpg");
 }
-.div-slike-slika1:hover{
+.skisportovi-slika1:hover{
     width: 49%;
     height: 51%;
 }
-.div-slike-slika2{
+.skisportovi-slika2{
     width: 48%;
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("https://planetbike.rs/media/megamenu/bicikl-servis.jpg");
+    background-image: url("https://planetbike.rs/media/megamenu/ski_servis.jpg");
 }
 
-.div-slike-slika2:hover{
+.skisportovi-slika2:hover{
     width: 49%;
     height: 51%;
 }
